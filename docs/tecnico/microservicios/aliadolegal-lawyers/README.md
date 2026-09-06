@@ -2,6 +2,18 @@
 
 Microservicio backend especializado en la gestión, indexación y consulta de información de abogados dentro de la plataforma legal tecnológica **AliadoLegal**. Desarrollado bajo una arquitectura orientada a microservicios con comunicación reactiva/asíncrona y persistencia políglota.
 
+## 🗂️ Estructura del Proyecto
+``` Plaintext
+aliadolegal-lawyers/
+├── src/
+│   ├── main/
+│   │   ├── java/com/jmc/aliadolegal/lawyers/   # Controladores, servicios y repositorios
+│   │   └── resources/                          # Configuración de Spring Boot y perfiles
+│   └── test/                                   # Pruebas unitarias e integración
+├── pom.xml                                     # Configuración de Maven, dependencias y plugins de calidad
+└── README.md                                   # Documentación del microservicio
+```
+
 ---
 
 ## 🚀 Stack Tecnológico
@@ -70,7 +82,9 @@ Al finalizar la ejecución de `mvn site -P reporting`, los reportes se estructur
 ## 🔌 Catálogo de Endpoints REST
 A continuación se detallan las rutas y operaciones expuestas por los controladores del microservicio:  
 1. **Gestión de Abogados** (/api/lawyer) - **LawyerController.java**   
-    * POST `/api/lawyer/add` - Registra un nuevo perfil de abogado en el sistema (`201 Created`).
+    * **[POST `/api/lawyer/add` - Registra un nuevo perfil de abogado en el sistema (`201 Created`).](./flujos/flujo-creacion-abogado.md)**
+    Creación de Abogado: Detalle del proceso de inicialización de entidades y eventos de creación.
+    
     * POST `/api/lawyer/update/basic_data` - Actualiza los datos básicos de un abogado existente (`201 Created`).
     * GET `/api/lawyer/getAll` - Obtiene la lista completa de abogados registrados (`201 Created`).
     * DELETE `/api/lawyer/delete/{lawyerId}` - Elimina el registro de un abogado por su identificador (204 No Content).
@@ -120,26 +134,3 @@ A continuación se detallan las rutas y operaciones expuestas por los controlado
     * POST `/api/lawyer/update-status/casetype/validate` - Simula evento de validación de tipo de caso (`200 OK`).  
     * POST `/api/lawyer/update-status/validate-ocr` - Simula el flujo de validación OCR para licencias (`200 OK`).  
     * POST `/api/lawyer/update-status/validate-document` - Valida documentos educativos contra el perfil (`200 OK` / `400 Bad Request`).
-
-## 🗂️ Estructura del Proyecto
-``` Plaintext
-aliadolegal-lawyers/
-├── src/
-│   ├── main/
-│   │   ├── java/com/jmc/aliadolegal/lawyers/   # Controladores, servicios y repositorios
-│   │   └── resources/                          # Configuración de Spring Boot y perfiles
-│   └── test/                                   # Pruebas unitarias e integración
-├── pom.xml                                     # Configuración de Maven, dependencias y plugins de calidad
-└── README.md                                   # Documentación del microservicio
-```
-## AliadoLegal - Documentación Técnica
-### Flujos de Negocio
-*   **[Creación de Abogado](docs/flujos/flujo-creacion-abogado.md)**: Detalle del proceso de 
-    inicialización de entidades y eventos de creación.
-*   **[Actualización de Datos Básicos del Abogado](docs/flujos/flujo-datos-basicos.md)**: Lógica de 
-    actualización demográfica, validación de CP y persistencia.
-*   **[Perfil Profesional (Acerca de mí) del Abogado](./docs/flujo-perfil-profesional.md)**: 
-    Gestión de la narrativa biográfica.
-
-## 📄 Licencia y Autoría   
-Desarrollado como parte del ecosistema AliadoLegal. Todos los derechos reservados.

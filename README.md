@@ -67,30 +67,31 @@ Transformar la manera en que la sociedad elige abogados, digitalizando la confia
 
 - Documentos técnicos
   - **Arquitectura**
-    - [`arquitectura-general`](docs/tecnico/arquitectura/arquitectura-general)
-    - [`comunicacion`](docs/tecnico/arquitectura/comunicacion)
-    - [`persistencia`](docs/tecnico/arquitectura/persistencia)
-    - [`eventos`](docs/tecnico/arquitectura/eventos)
+    - Arquitectura general
+    - [`Arquitectura del Modelo de Datos y Grafo (Neo4j)`](docs/tecnico/arquitectura/comunicacion)
+    - comunicacion
+    - persistencia
+    - eventos
   - **Microservicios**
-    - [`aliadolegal-gateway`](docs/tecnico/microservicios/aliadolegal-gateway)
-    - [`aliadolegal-eureka`](docs/tecnico/microservicios/aliadolegal-eureka)
-    - [`aliadolegal-security`](docs/tecnico/microservicios/aliadolegal-security)
-    - [`aliadolegal-users`](docs/tecnico/microservicios/aliadolegal-users)
+    - aliadolegal-gateway
+    - aliadolegal-eureka
+    - aliadolegal-security
+    - aliadolegal-users
     - [`aliadolegal-lawyers`](docs/tecnico/microservicios/aliadolegal-lawyers/README.md)
-    - [`aliadolegal-clients`](docs/tecnico/microservicios/aliadolegal-clients)
-    - [`aliadolegal-catalogs`](docs/tecnico/microservicios/aliadolegal-catalogs)
-    - [`aliadolegal-specialty-intelligence`](docs/tecnico/microservicios/aliadolegal-specialty-intelligence)
-    - [`aliadolegal-hfmoderator`](docs/tecnico/microservicios/aliadolegal-hfmoderator)
+    - aliadolegal-clients
+    - aliadolegal-catalogs
+    - aliadolegal-specialty-intelligence
+    - aliadolegal-hfmoderator
   - **Datos**
-    - [`neo4j`](docs/tecnico/datos/neo4j)
-    - [`elasticsearch`](docs/tecnico/datos/elasticsearch)
-    - [`modelo-de-informacion`](docs/tecnico/datos/modelo-de-informacion)
+    - neo4j
+    - elasticsearch
+    - modelo-de-informacion
   - **Inteligencia Artificial**
-    - [`ocr`](docs/tecnico/inteligencia/ocr)
-    - [`bert`](docs/tecnico/inteligencia/bert)
-    - [`busqueda-semantica`](docs/tecnico/inteligencia/busqueda-semantica)
-    - [`moderacion`](docs/tecnico/inteligencia/moderacion)
+    - ocr
+    - bert
+    - busqueda-semantica
+    - moderacion
   - **Eventos**
-    - [`modelo-de-eventos`](docs/tecnico/eventos/modelo-de-eventos)
-    - [`stages`](docs/tecnico/eventos/stages)
-    - [`kafka`](docs/tecnico/eventos/kafka)
+    - modelo-de-eventos
+    - stages
+    - kafka
