@@ -1,5 +1,7 @@
 ![](./images/logo_aliadolegal.png)
 
+
+
 # AliadoLegal
 
 **AliadoLegal** es una plataforma digital de tecnología jurídica (*LegalTech*) desarrollada en México para simplificar y transparentar la manera en que las personas encuentran, evalúan y conectan con abogados especialistas.

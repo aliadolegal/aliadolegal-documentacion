@@ -1,3 +1,5 @@
+[← Volver](./../../../../README.md#estructura-de-la-documentacion-tecnica)
+
 # AliadoLegal - Lawyers Microservice (`aliadolegal-lawyers`)
 
 Microservicio backend especializado en la gestión, indexación y consulta de información de abogados dentro de la plataforma legal tecnológica **AliadoLegal**. Desarrollado bajo una arquitectura orientada a microservicios con comunicación reactiva/asíncrona y persistencia políglota.
@@ -82,8 +84,8 @@ Al finalizar la ejecución de `mvn site -P reporting`, los reportes se estructur
 ## 🔌 Catálogo de Endpoints REST
 A continuación se detallan las rutas y operaciones expuestas por los controladores del microservicio:  
 1. **Gestión de Abogados** (/api/lawyer) - **LawyerController.java**   
-    * **[POST `/api/lawyer/add` - Registra un nuevo perfil de abogado en el sistema (`201 Created`).](./flujos/flujo-creacion-abogado.md)**
-    Creación de Abogado: Detalle del proceso de inicialización de entidades y eventos de creación.
+    * **[POST `/api/lawyer/add` - (`201 Created`).](./flujo-creacion-abogado/README.md)**
+     Registra un nuevo perfil de abogado en el sistema: Detalle del proceso de inicialización de entidades y eventos de creación del abogado.
     
     * POST `/api/lawyer/update/basic_data` - Actualiza los datos básicos de un abogado existente (`201 Created`).
     * GET `/api/lawyer/getAll` - Obtiene la lista completa de abogados registrados (`201 Created`).
@@ -134,3 +136,5 @@ A continuación se detallan las rutas y operaciones expuestas por los controlado
     * POST `/api/lawyer/update-status/casetype/validate` - Simula evento de validación de tipo de caso (`200 OK`).  
     * POST `/api/lawyer/update-status/validate-ocr` - Simula el flujo de validación OCR para licencias (`200 OK`).  
     * POST `/api/lawyer/update-status/validate-document` - Valida documentos educativos contra el perfil (`200 OK` / `400 Bad Request`).
+
+[← Volver](#-catálogo-de-endpoints-rest)

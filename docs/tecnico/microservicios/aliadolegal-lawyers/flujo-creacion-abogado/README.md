@@ -1,4 +1,5 @@
-[← Volver](../README.md)
+[← Volver](../README.md#catalogo-de-endpoints-rest)
+
 # Flujo de Negocio: Creación de Abogado (Onboarding Inicial)
 Este documento detalla el proceso técnico y de negocio para el registro inicial de un abogado en la plataforma **AliadoLegal**.
 
