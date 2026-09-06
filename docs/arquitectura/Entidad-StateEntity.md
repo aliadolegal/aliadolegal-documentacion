@@ -13,6 +13,7 @@ Al integrar claves normativas, el nodo actúa como el catálogo inmutable de ref
 
 ## Lógica de Conectividad
 En la arquitectura de catálogos, el nodo Entidad se sitúa en la cúspide de la pirámide geográfica. Recibe vínculos ascendentes desde el nodo Ciudad (CIUDAD_PERTENECE_A_ENTIDAD) y desde el nodo Municipio mediante la relación MUNICIPIO_PERTENECE_A_ENTIDAD. Esta estructura permite que el grafo realice una propagación de datos eficiente, donde cualquier perfil o registro vinculado a niveles inferiores quede automáticamente indexado bajo el contexto de su entidad federativa correspondiente.
+
 ![Entidad StateEntity tb](./images/Entidad-StateEntity-tb.png)
 ![Entidad StateEntity node](./images/Entidad-StateEntity-node.png)
 ![Entidad StateEntity node1](./images/Entidad-StateEntity-node1.png)
