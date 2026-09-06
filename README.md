@@ -69,7 +69,7 @@ Transformar la manera en que la sociedad elige abogados, digitalizando la confia
 - Documentos técnicos
   - **Arquitectura**
     - Arquitectura general
-    - [Arquitectura del Modelo de Datos y Grafo (Neo4j)](docs/tecnico/arquitectura/comunicacion)
+    - [Arquitectura del Modelo de Datos y Grafo (Neo4j)](docs/arquitectura/modelo-de-grafos.md)
     - comunicacion
     - persistencia
     - eventos
