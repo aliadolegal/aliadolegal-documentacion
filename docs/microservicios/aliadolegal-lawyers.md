@@ -1,4 +1,4 @@
-[← Volver](./../../../../README.md#estructura-de-la-documentación-técnica)
+[← Volver a página principal](./../../README.md#estructura-de-la-documentación-técnica)
 
 # AliadoLegal - Lawyers Microservice (`aliadolegal-lawyers`)
 
@@ -84,10 +84,11 @@ Al finalizar la ejecución de `mvn site -P reporting`, los reportes se estructur
 ## 🔌 Catálogo de Endpoints REST
 A continuación se detallan las rutas y operaciones expuestas por los controladores del microservicio:  
 1. **Gestión de Abogados** (/api/lawyer) - **LawyerController.java**   
-    * **[POST `/api/lawyer/add` - (`201 Created`).](./flujo-creacion-abogado/README.md)**
+    * **[POST /api/lawyer/add - (201 Created).](./flujos/flujo-creacion-abogado.md)**
      Registra un nuevo perfil de abogado en el sistema: Detalle del proceso de inicialización de entidades y eventos de creación del abogado.
     
-    * POST `/api/lawyer/update/basic_data` - Actualiza los datos básicos de un abogado existente (`201 Created`).
+    * **[POST /api/lawyer/update/basic_data -  (201 Created).](flujos/flujo-actualizacion-datos_basicos.md)**
+    Actualiza los datos básicos de un abogado existente.
     * GET `/api/lawyer/getAll` - Obtiene la lista completa de abogados registrados (`201 Created`).
     * DELETE `/api/lawyer/delete/{lawyerId}` - Elimina el registro de un abogado por su identificador (204 No Content).
     * PUT `/api/lawyer/activate/{lawyerId}` - Activa el estatus de un abogado (`204 No Content`).
@@ -137,4 +138,4 @@ A continuación se detallan las rutas y operaciones expuestas por los controlado
     * POST `/api/lawyer/update-status/validate-ocr` - Simula el flujo de validación OCR para licencias (`200 OK`).  
     * POST `/api/lawyer/update-status/validate-document` - Valida documentos educativos contra el perfil (`200 OK` / `400 Bad Request`).
 
-[← Volver](#-catálogo-de-endpoints-rest)
+[← Volver a página principal](./../../README.md#estructura-de-la-documentación-técnica)

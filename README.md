@@ -1,7 +1,5 @@
 ![](./images/logo_aliadolegal.png)
-
-
-
+ 
 # AliadoLegal
 
 **AliadoLegal** es una plataforma digital de tecnología jurídica (*LegalTech*) desarrollada en México para simplificar y transparentar la manera en que las personas encuentran, evalúan y conectan con abogados especialistas.
@@ -63,6 +61,7 @@ Transformar la manera en que la sociedad elige abogados, digitalizando la confia
 
 - **Documentos ejecutivos**
   - **Flujos de datos**
+    - **[01 Crear abogado](./docs/flujos/flujo-creacion-abogado.md)**: Registra un nuevo perfil de abogado en el sistema: Detalle del proceso de inicialización de entidades y eventos de creación del abogado.
 ---
 
 ## Estructura de la documentación técnica
@@ -70,7 +69,7 @@ Transformar la manera en que la sociedad elige abogados, digitalizando la confia
 - Documentos técnicos
   - **Arquitectura**
     - Arquitectura general
-    - [`Arquitectura del Modelo de Datos y Grafo (Neo4j)`](docs/tecnico/arquitectura/comunicacion)
+    - [Arquitectura del Modelo de Datos y Grafo (Neo4j)](docs/tecnico/arquitectura/comunicacion)
     - comunicacion
     - persistencia
     - eventos
@@ -79,7 +78,7 @@ Transformar la manera en que la sociedad elige abogados, digitalizando la confia
     - aliadolegal-eureka
     - aliadolegal-security
     - aliadolegal-users
-    - [`aliadolegal-lawyers`](docs/tecnico/microservicios/aliadolegal-lawyers/README.md)
+    - [aliadolegal-lawyers](docs/microservicios/aliadolegal-lawyers.md)
     - aliadolegal-clients
     - aliadolegal-catalogs
     - aliadolegal-specialty-intelligence
