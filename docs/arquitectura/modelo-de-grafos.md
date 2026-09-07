@@ -1,4 +1,4 @@
-[← Volver a página principal](../../README.md%23estructura-de-la-documentaci%C3%B3n-t%C3%A9cnica)
+[← Volver a página principal](../../README.md#estructura-de-la-documentación-técnica)
 
 # Modelo de Grafos de Neo4j: Arquitectura de Datos de AliadoLegal
 
