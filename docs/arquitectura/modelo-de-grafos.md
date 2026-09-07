@@ -93,6 +93,13 @@ El modelo de grafos está diseñado para reflejar con precisión el dominio lega
 ## 5. Nodos de catálogo
 * [StateEntity-StateEntity:](Entidad-StateEntity.md)
 El nodo Entidad constituye el ancla regional y el nivel superior de la jerarquía geográfica en el grafo. Es el contenedor principal que organiza la distribución territorial de los datos.
+
 * [Municipio - MunicipalityEntity:](Municipio-MunicipalityEntity.md)
 El nodo Municipio representa la división política y administrativa intermedia dentro del grafo de AliadoLegal. Su función es servir de puente organizativo entre la Entidad Federativa y las unidades territoriales específicas.
+
+* [Ciudad - CityEntity:](Ciudad-CityEntity.md)
+El nodo Ciudad representa una unidad de agregación urbana o metropolitana dentro del grafo. Su función es agrupar diversos sectores geográficos bajo una identidad de mancha urbana común.
+
+* [Asentamiento - SettlementEntity:](Asentamiento-SettlementEntity.md)
+El nodo Asentamiento constituye la unidad de información más granular en la jerarquía geográfica del sistema. Representa el punto de contacto final y específico donde se sitúa la necesidad del usuario o la ubicación del despacho profesional.
 
