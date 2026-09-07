@@ -92,14 +92,33 @@ El modelo de grafos está diseñado para reflejar con precisión el dominio lega
 
 ## 5. Nodos de catálogo
 * [StateEntity-StateEntity:](Entidad-StateEntity.md)
-El nodo Entidad constituye el ancla regional y el nivel superior de la jerarquía geográfica en el grafo. Es el contenedor principal que organiza la distribución territorial de los datos.
+El nodo `Entidad` constituye el ancla regional y el nivel superior de la jerarquía geográfica en el grafo. Es el contenedor principal que organiza la distribución territorial de los datos.
 
 * [Municipio - MunicipalityEntity:](Municipio-MunicipalityEntity.md)
-El nodo Municipio representa la división política y administrativa intermedia dentro del grafo de AliadoLegal. Su función es servir de puente organizativo entre la Entidad Federativa y las unidades territoriales específicas.
+El nodo `Municipio` representa la división política y administrativa intermedia dentro del grafo de AliadoLegal. Su función es servir de puente organizativo entre la Entidad Federativa y las unidades territoriales específicas.
 
 * [Ciudad - CityEntity:](Ciudad-CityEntity.md)
-El nodo Ciudad representa una unidad de agregación urbana o metropolitana dentro del grafo. Su función es agrupar diversos sectores geográficos bajo una identidad de mancha urbana común.
+El nodo `Ciudad` representa una unidad de agregación urbana o metropolitana dentro del grafo. Su función es agrupar diversos sectores geográficos bajo una identidad de mancha urbana común.
 
 * [Asentamiento - SettlementEntity:](Asentamiento-SettlementEntity.md)
-El nodo Asentamiento constituye la unidad de información más granular en la jerarquía geográfica del sistema. Representa el punto de contacto final y específico donde se sitúa la necesidad del usuario o la ubicación del despacho profesional.
+El nodo `Asentamiento` constituye la unidad de información más granular en la jerarquía geográfica del sistema. Representa el punto de contacto final y específico donde se sitúa la necesidad del usuario o la ubicación del despacho profesional.
 
+* [TipoAsentamiento - SettlementTypeEntity:](TipoAsentamiento-SettlementTypeEntity.md)
+El nodo `TipoAsentamiento` añade una capa de metadatos a la ubicación física. Mientras que el nodo Asentamiento nos dice 'dónde' está el abogado, el `TipoAsentamiento` describe el 'contexto socio-urbano' de su zona de influencia. Esta distinción es clave para que el `merit optimization algorithm academic` pueda ponderar la relevancia de un perfil según el entorno donde se solicita el servicio legal.
+
+* [Institucion - InstitutionEntity:](Institucion-InstitutionEntity.md)
+El nodo `Institucion` representa a las organizaciones académicas o profesionales encargadas de la formación y certificación de los prestadores de servicios legales en el grafo.
+
+* [NivelEstudio - StudyLevelEntity:](NivelEstudio-StudyLevelEntity.md)
+El nodo `NivelEstudio` representa los niveles académicos que forman parte del historial educativo de un profesional.
+
+* [MateriaDerecho - SubjectLawEntity:](MateriaDerecho-SubjectLawEntity.md)
+El nodo `MateriaDerecho` representa una categoría de nivel superior dentro de la taxonomía jurídica del sistema. Agrupa las especialidades jurídicas que pertenecen a un mismo ámbito del derecho y proporciona el contexto necesario para organizar, clasificar y relacionar el conocimiento jurídico dentro del grafo.
+
+* [EspecialidadDerecho - LawSpecialtyEntity:](EspecialidadDerecho-LawSpecialtyEntity.md)
+El nodo `EspecialidadDerecho` representa un área específica de práctica jurídica dentro de la taxonomía legal del sistema. Define las características que permiten contextualizar una especialidad, relacionarla con una materia de derecho y establecer parámetros para la evaluación de experiencia y mérito profesional.
+
+* [Fuero - JurisdictionEntity:](Fuero-JurisdictionEntity.md)
+El nodo `Fuero` representa el ámbito de jurisdicción legal bajo el cual se organiza la actividad de las entidades jurídicas y judiciales dentro del grafo.
+
+* [SedeJusticia - CourtBuildingEntity:](SedeJusticia-CourtBuildingEntity.md)
