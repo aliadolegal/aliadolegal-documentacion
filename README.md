@@ -61,7 +61,7 @@ Transformar la manera en que la sociedad elige abogados, digitalizando la confia
 
 - **Documentos ejecutivos**
   - **Flujos de datos**
-    - **[01 Crear abogado](./docs/flujos/flujo-creacion-abogado.md)**: Registra un nuevo perfil de abogado en el sistema: Detalle del proceso de inicialización de entidades y eventos de creación del abogado.
+    - **[01 Crear abogado](docs/ejecutivo/flujos/flujo-creacion-abogado.md)**: Registra un nuevo perfil de abogado en el sistema: Detalle del proceso de inicialización de entidades y eventos de creación del abogado.
 ---
 
 ## Estructura de la documentación técnica

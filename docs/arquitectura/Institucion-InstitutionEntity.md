@@ -18,3 +18,7 @@ El nodo **`Institucion`** representa una organización académica o profesional 
 En la arquitectura de catálogos, el nodo **`Institucion`** se relaciona con la estructura geográfica mediante las relaciones **`INSTITUCION_UBICADA_EN_ESTADO`**, **`INSTITUCION_UBICADA_EN_MUNICIPIO`** e **`INSTITUCION_UBICADA_EN_ASENTAMIENTO`**.
 
 Estas relaciones permiten contextualizar territorialmente a la institución y establecer diferentes niveles de ubicación dentro del grafo. A partir de esta estructura, la institución puede participar posteriormente en relaciones con las entidades académicas y profesionales que la referencian.
+
+![](./images/Institucion-InstitutionEntity-tb.png)
+![](./images/Institucion-InstitutionEntity-node.png)
+![](./images/Institucion-InstitutionEntity-node1.png)

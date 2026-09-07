@@ -1,4 +1,4 @@
-[← Volver a página principal](./../../README.md#estructura-de-la-documentación-técnica)
+[← Volver a página principal](../../../README.md#estructura-de-la-documentación-técnica)
 
 # Proceso de Alta y Activación de un Abogado en la Plataforma
 
