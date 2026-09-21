@@ -2,7 +2,7 @@
 
 ### Institucion - InstitutionEntity
 
-El nodo **`Institucion`** representa una organización académica o profesional relacionada con la formación o acreditación de los prestadores de servicios legales dentro del grafo. Permite identificar la institución asociada a los antecedentes académicos o profesionales registrados y contextualizarla dentro de la estructura territorial.
+El nodo `Institucion` representa una organización académica o profesional relacionada con la formación o acreditación de los prestadores de servicios legales dentro del grafo. Permite identificar la institución asociada a los antecedentes académicos o profesionales registrados y contextualizarla dentro de la estructura territorial.
 
 * **Identificación Institucional:**
   Su función es representar de manera normalizada a las instituciones mediante un identificador y la información correspondiente a su registro. Esto permite que una misma institución pueda ser referenciada desde diferentes entidades del grafo sin duplicar su información.

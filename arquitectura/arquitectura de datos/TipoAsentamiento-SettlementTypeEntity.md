@@ -3,7 +3,6 @@
 # TipoAsentamiento - SettlementTypeEntity
 
 ### TipoAsentamiento - SettlementTypeEntity
-
 El nodo **`TipoAsentamiento`** representa la clasificación territorial asociada a un asentamiento. Mientras que el nodo **`Asentamiento`** identifica una ubicación territorial específica, `TipoAsentamiento` proporciona la categoría que permite distinguir la naturaleza del asentamiento, como `Colonia`, `Fraccionamiento`, `Barrio` u otras clasificaciones contempladas por el catálogo.
 
 * **Estandarización de la Clasificación Territorial:**

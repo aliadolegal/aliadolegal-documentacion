@@ -1,4 +1,4 @@
-[← Volver a página principal](./../../README.md#estructura-de-la-documentación-técnica)
+[← Volver a página principal](../documentacion-tecnica-ejecutiva.md)
 
 # AliadoLegal - Lawyers Microservice (`aliadolegal-lawyers`)
 

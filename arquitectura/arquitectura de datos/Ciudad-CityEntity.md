@@ -1,7 +1,7 @@
 [← modelo de grafos](./modelo-de-grafos.md#nodos-de-catálogo)
 
 # Ciudad - CityEntity
-El nodo Ciudad representa una unidad de agregación urbana o metropolitana dentro del grafo. Su función es agrupar diversos sectores geográficos bajo una identidad de mancha urbana común.
+El nodo `Ciudad` representa una unidad de agregación urbana o metropolitana dentro del grafo. Su función es agrupar diversos sectores geográficos bajo una identidad de mancha urbana común.
 * **Agrupación por Contexto Urbano:**
 A diferencia del nodo `Municipio`, que es una división política, el nodo `Ciudad` permite agrupar demarcaciones que forman parte de una misma zona conurbada. Su función técnica es permitir que el sistema identifique centros poblacionales densos donde la continuidad urbana es más relevante que la división administrativa.
 

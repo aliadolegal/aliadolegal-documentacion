@@ -1,9 +1,9 @@
 [← modelo de grafos](./modelo-de-grafos.md#nodos-de-catálogo)
 
 # Municipio - MunicipalityEntity
-El nodo Municipio representa la división política y administrativa intermedia dentro del grafo de AliadoLegal. Su función es servir de puente organizativo entre la Entidad Federativa y las unidades territoriales específicas.
+El nodo `Municipio` representa la división política y administrativa intermedia dentro del grafo de AliadoLegal. Su función es servir de puente organizativo entre la Entidad Federativa y las unidades territoriales específicas.
 * **Agrupación Administrativa y Legal:**
-A diferencia del nodo Ciudad, que se enfoca en la mancha urbana, el nodo Municipio delimita las fronteras legales y de gobierno. Su función técnica es permitir que el sistema asocie perfiles y servicios a una demarcación con autoridad jurídica propia, facilitando la identificación de competencias territoriales.
+A diferencia del nodo `Ciudad`, que se enfoca en la mancha urbana, el nodo `Municipio` delimita las fronteras legales y de gobierno. Su función técnica es permitir que el sistema asocie perfiles y servicios a una demarcación con autoridad jurídica propia, facilitando la identificación de competencias territoriales.
 
 * **Segmentación por Jurisdicción:**
 Actúa como un filtro de segundo nivel que organiza los datos geográficos de manera estructurada. Su propósito es garantizar que la búsqueda de representación legal pueda acotarse a demarcaciones específicas, especialmente en contextos donde la competencia judicial se determina por cabeceras municipales.

@@ -1,11 +1,10 @@
 [← modelo de grafos](./modelo-de-grafos.md#nodos-de-catálogo)
 
 # NivelEstudio - StudyLevelEntity
-
-El nodo **`NivelEstudio`** representa los niveles académicos que forman parte del historial educativo de un profesional. Es un **catálogo inmutable** que establece la clasificación normalizada de los grados de estudio y proporciona los valores utilizados para determinar su peso y posición dentro de la jerarquía académica.
+El nodo `NivelEstudio` representa los niveles académicos que forman parte del historial educativo de un profesional. Establece la clasificación normalizada de los grados de estudio y proporciona los valores utilizados para determinar su peso y posición dentro de la jerarquía académica.
 
 * **Normalización de Grados Académicos:**
-  Estandariza las categorías de formación académica mediante un identificador y un nombre de nivel de estudio, evitando la fragmentación de información por diferentes representaciones de un mismo grado. El catálogo contempla niveles como `Licenciatura`, `Maestría` y `Doctorado`, entre otros.
+  Estandariza las categorías de formación académica mediante un identificador y un nombre de nivel de estudio, evitando la fragmentación de información por diferentes representaciones de un mismo grado. El catálogo contempla niveles como `Licenciatura`, `Maestría` y `Doctorado`.
 
 * **Ponderación del Mérito Académico:**
   El atributo `peso` establece el valor asociado a cada nivel de estudio para los procesos de evaluación y cálculo del mérito académico. Al estar definido en un nodo de catálogo, el peso correspondiente a cada grado constituye un criterio común para la evaluación de los diferentes niveles de formación.
