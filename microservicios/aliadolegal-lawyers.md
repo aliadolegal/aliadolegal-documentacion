@@ -1,4 +1,6 @@
-[← Volver a página principal](../documentacion-tecnica-ejecutiva.md)
+[← Volver a página Documentación Técnica y ejecutiva](../documentacion-tecnica-ejecutiva.md)
+
+---
 
 # AliadoLegal - Lawyers Microservice (`aliadolegal-lawyers`)
 
@@ -138,4 +140,6 @@ A continuación se detallan las rutas y operaciones expuestas por los controlado
     * POST `/api/lawyer/update-status/validate-ocr` - Simula el flujo de validación OCR para licencias (`200 OK`).  
     * POST `/api/lawyer/update-status/validate-document` - Valida documentos educativos contra el perfil (`200 OK` / `400 Bad Request`).
 
-[← Volver a página principal](./../../README.md#estructura-de-la-documentación-técnica)
+---
+
+[← Volver a página Documentación Técnica y ejecutiva](./../../README.md#estructura-de-la-documentación-técnica)

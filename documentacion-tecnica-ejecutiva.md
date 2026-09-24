@@ -20,14 +20,19 @@
         - [neo4j](arquitectura/neo4j.md)
         - [elasticsearch](arquitectura/elasticsearch.md)
   - **Microservicios**
-    - aliadolegal-gateway
-    - aliadolegal-eureka
-    - aliadolegal-security
-    - aliadolegal-users
-    - [aliadolegal-lawyers](microservicios/aliadolegal-lawyers.md)
+    - [aliadolegal-catalogs](microservicios/aliadolegal-catalogs.md)
+    Microservicio backend perteneciente al ecosistema **AliadoLegal**, encargado de la gestión, consulta y administración de catálogos especializados de información legal (materias de derecho, especialidades de abogados, niveles de estudio e instituciones académicas/profesionales).
     - aliadolegal-clients
-    - aliadolegal-catalogs
-    - aliadolegal-specialty-intelligence
+    - [aliadolegal-eureka_server](microservicios/aliadolegal-eureka_server.md)
+    Servidor de registro y descubrimiento de servicios para la arquitectura de microservicios de **AliadoLegal**. Basado en Spring Cloud Netflix Eureka Server, este componente permite la localización dinámica e interconexión resiliente de todos los microservicios del ecosistema.
+    - [aliadolegal-filesuploadOCR](microservicios/aliadolegal-filesuploadOCR.md)
+    Microservicio backend de **AliadoLegal** especializado en la carga de archivos, el reconocimiento óptico de caracteres (OCR), la limpieza de texto y la extracción de información de cédulas profesionales. Procesa documentos PDF e imágenes y publica eventos de verificación de educación mediante Apache Kafka.
+    - aliadolegal-gateway
     - aliadolegal-hfmoderator
+    - [aliadolegal-lawyers](microservicios/aliadolegal-lawyers.md)
+    Microservicio backend especializado en la gestión, indexación y consulta de información de abogados dentro de la plataforma legal tecnológica **AliadoLegal**. Desarrollado bajo una arquitectura orientada a microservicios con comunicación reactiva/asíncrona y persistencia políglota.
+    - aliadolegal-security
+    - aliadolegal-specialty-intelligence
+    - aliadolegal-users
 ---
 [← Volver a página principal](./README.md)
